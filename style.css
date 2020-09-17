@@ -5,7 +5,7 @@ padding: 0;
 }
 <!--Noa ci Colors-->
 .noablack {
-  color:#222222;
+  color:#343a40;
 }
 .noadgreen2 {
   color:#037F8C;
@@ -25,7 +25,7 @@ padding: 0;
 
 header
 {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(noabackground.jpg);
+    background-image: linear-gradient(rgba(126, 208, 217,0.8),rgba(3, 127, 140,0.8)),url(noabackground.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -35,7 +35,7 @@ top: 50%;
 left: 50%;
 position: absolute;
 transform: translate(-50%,-50%);
-color: #FFFFFF;
+color: #343a40;
 text-align: center;
 }
 h1{
@@ -47,7 +47,8 @@ h1{
 hr{
     width: 50%;
     margin:30px auto;
-    border: 1,5 solid #FFFFFF
+    border: 3 solid;
+    border-color: #343a40;
 }
 
 p{
